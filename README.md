@@ -1,2 +1,2 @@
 # javascript
-Curso Javascript
+Entrega Javascript
