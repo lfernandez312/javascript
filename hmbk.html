@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>HOME BANKING</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="align-left">
+            <span id="nombre"></span>
+        </div>
+    </div>
+    <div class="homebanking-container">
+        <div class="menu-container">
+            <button class="links" onclick="iniciarSesion()">Iniciar Sesion</button>
+            <button class="links" onclick="listaCliente()">Listado Cliente</button>
+            <h1 class="tu-cuenta">Tu cuenta</h1>
+            <button class="links" onclick="extraerDinero()">Extraer dinero</button>
+            <button class="links" onclick="depositarDinero()">Depositar dinero</button>
+            <button class="links" onclick="pagarServicio()">Pagar servicios</button>
+            <button class="links" onclick="transferirDinero()">Transferir dinero</button>
+            <button class="links" onclick="cambiarLimiteDeExtraccion()">Cambiar límite de extracción</button>
+            <button class="links" onclick="crearPlazoFijo()">Plazo Fijo</button>
+            <button class="links" onclick="generaToken()">Generar Token</button>
+            <button class="links" onclick="actualizarDatosPersonales()">Actualizar Mis Datos</button>
+        </div>
+        <div class="green-container">
+            <div class="cuenta-info">
+                <p class="titulo-cuenta">Saldo en tu cuenta</p>
+                <button class="btn btn-primary"  onclick="verSaldo()">Consultar</button>
+                <h3 id="saldo-cuenta"></h3>
+                <p id="limite-extraccion">Tu límite de extracción es: </p>
+                <button class="btn btn-primary" onclick="limite()">Consultar</button>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
