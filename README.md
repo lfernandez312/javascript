@@ -1,3 +1,4 @@
-# javascript
-Entrega Numero 1 - Consta de una pagina web de banco, la cual se puede iniciar sesion, simular plazo fijo y consultar tarjetas de credito
+# CS javascript
+
+Entrega Numero 2 - implementación en JavaScript de un sistema de gestión de clientes y operaciones bancarias. El código utiliza variables, funciones y clases para realizar diversas operaciones, como seleccionar un cliente, iniciar sesión, consultar el saldo, cambiar el límite de extracción, realizar extracciones y depósitos, pagar servicios, transferir dinero y crear plazos fijos.
 
